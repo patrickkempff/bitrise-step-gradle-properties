@@ -1,0 +1,17 @@
+
+
+[[constraint]]
+  branch = "master"
+  name = "github.com/bitrise-io/go-utils"
+
+[[constraint]]
+  branch = "master"
+  name = "github.com/bitrise-tools/go-steputils"
+
+[[constraint]]
+  branch = "master"
+  name = "github.com/magiconair/properties"  
+
+[prune]
+  go-tests = true
+  unused-packages = true
